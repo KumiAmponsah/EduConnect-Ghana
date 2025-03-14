@@ -1,0 +1,231 @@
+/* General home page styles */
+
+a {
+  text-decoration: none;
+}
+
+.home-container {
+  padding: 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.home-container h1 {
+  font-size: 36px;
+  color: #333;
+}
+
+.home-container p {
+  font-size: 18px;
+  color: #555;
+}
+
+.topsection {
+  background-color: #F3F4F6;
+  width: 100%;
+  padding-top: 60px;
+  padding-bottom: 30px;
+  text-align: center;
+  position: relative;
+}
+
+.topsection h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+.topsection p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.JoinCommunity,
+.BrowseCourse {
+  padding: 14px 20px;
+  border-radius: 7px;
+  margin-top: 20px;
+}
+
+.JoinCommunity {
+  background-color: #2563EB;
+  color: #ffffff;
+  margin-right: 10px;
+}
+
+.BrowseCourse {
+  background-color: white;
+  color: #2563EB;
+  border: 2px solid #2563EB;
+}
+
+.topsection a {
+  display: inline-block;
+  margin: 10px;
+}
+
+.secondsection {
+  display: flex;
+  justify-content: space-evenly; /* Space the icons evenly */
+  align-items: center;
+  text-align: center; /* Center the text under each icon */
+  padding-top: 20px; /* Optional: Add some padding to the top */
+  background-color: #ffffff;
+  padding: 70px;
+}
+
+.section-icon {
+  width: 30px; /* Increased size for better visibility */
+  height: 30px; /* Increased size for better visibility */
+  padding: 15px; /* Adjusted padding for better spacing */
+  background-color: #EFF6FF;
+  border-radius: 50%;
+  object-fit: contain; /* Ensure the image fits within the circle */
+}
+
+.secondsection p {
+  margin-top: 10px; /* Space the text below each icon */
+  font-size: 16px; /* Adjust text size */
+}
+
+.thirdsection h2 {
+  text-align: center;
+}
+
+.thirdsection .thirdsection-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.thirdsection .innertabs p {
+  line-height: 7px;
+}
+
+.thirdsection .innertabs h4 {
+  bottom: 5px;
+  position: relative;
+}
+
+.thirdsection .innertabs {
+  padding: 20px;
+  border: 1px solid #E5E7EB;
+  border-radius: 7px;
+  flex: 1; /* Ensure equal width */
+  margin: 10px; /* Add some margin between tabs */
+  max-width: 200px; /* Set a max-width for consistency */
+}
+
+.innertabs-container {
+  display: flex;
+  justify-content: space-evenly; /* Space the tabs evenly */
+  gap: 15px; /* Space between the tabs */
+  padding: 0 10px; /* Add small padding from the screen's edges */
+}
+
+.last-line {
+  display: flex;
+  align-items: center; /* Align icon and text vertically */
+  gap: 5px; /* Add space between text and icon */
+}
+.last-line p {
+  color:#2563EB;
+  
+}
+
+.next-icon {
+  width: 16px; /* Smaller size for the next icon */
+  height: 16px;
+}
+
+.lastsection{
+  background-color: #F9FAFB;
+  padding: 20px;
+}
+.lastsection h2{
+  text-align: center;
+}
+
+.lastsection-container {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  flex-wrap: wrap; /* Allow wrapping on smaller screens */
+}
+
+.lastsection .lastsection-innertabs{
+  border: 1px solid #E5E7EB;
+  background-color: white;
+  border-radius: 7px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  flex: 1;
+  min-width: 250px; /* Minimum width for each tab */
+  max-width: 300px; /* Maximum width for each tab */
+}
+
+.lastsection .lastsection-innertabs p{
+  line-height: 10px;
+  color: #4B5563;
+}
+
+.lastsection .lastsection-innertabs .experience-user{
+  margin-top: 30px;
+  line-height: 10px;
+  color: #000000;
+}
+
+
+/* Responsive design for small screens */
+@media (max-width: 768px) {
+  .topsection h1 {
+    font-size: 28px;
+  }
+
+  .topsection p {
+    font-size: 16px;
+  }
+
+  .JoinCommunity,
+  .BrowseCourse {
+    padding: 10px 15px;
+    font-size: 14px;
+  }
+
+  .topsection {
+    padding-top: 40px;
+  }
+
+  .secondsection {
+    flex-direction: column; /* Stack icons and text vertically on small screens */
+  }
+
+  .secondsection div {
+    margin-bottom: 50px;
+  }
+
+  .section-icon {
+    width: 30px; /* Adjust icon size for small screens */
+    height: 30px;
+  }
+
+  .innertabs-container {
+    flex-direction: column; /* Stack tabs vertically on small screens */
+    align-items: center; /* Center the tabs */
+    gap: 20px; /* Add space between each tab */
+  }
+
+  .innertabs {
+    margin-bottom: 20px; /* Add margin between tabs */
+    width: 100%; /* Full width on small screens */
+    max-width: 300px; /* Same max-width as on larger screens */
+  }
+
+  .lastsection-container {
+    flex-direction: column; /* Stack tabs vertically on small screens */
+    align-items: center; /* Center the tabs */
+  }
+
+  .lastsection .lastsection-innertabs {
+    width: 100%; /* Full width on small screens */
+    max-width: 100%; /* Allow full width */
+  }
+}

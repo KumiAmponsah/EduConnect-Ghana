@@ -1,0 +1,162 @@
+/* Main navigation styles */
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.logo-section {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 40px;
+  width: auto;
+}
+
+.website-name {
+  font-size: 24px;
+  font-weight: bold;
+  color: #2563EB;
+  margin-left: 10px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: gray;
+  margin: 0 15px;
+  font-size: 18px;
+}
+
+.nav-links a:hover {
+  color: blue;
+}
+
+.search-notifications {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 8px;
+  padding: 5px 15px;
+  border: 1px solid #ccc;
+}
+
+.search-bar input {
+  border: none;
+  outline: none;
+  padding: 5px;
+  width: 150px;
+}
+
+.search-icon {
+  height: 20px;
+  width: 20px;
+  margin-left: 10px;
+}
+
+.notification-bell {
+  position: relative;
+  margin-left: 20px;
+}
+
+.bell-icon {
+  height: 30px;
+  width: 30px;
+}
+
+.notification-badge {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: red;
+  color: white;
+  font-size: 12px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hamburger-menu {
+  display: none;
+  cursor: pointer;
+}
+
+.line-icon {
+  width: 30px;
+  height: 20px;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  .navigation {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    margin-top: 10px;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    z-index: 10;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .nav-links a {
+    margin: 5px 0;
+    font-size: 18px;
+  }
+
+  .search-notifications {
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+
+  .search-bar {
+    width: auto;
+    margin-left: 0;
+  }
+
+  .notification-bell {
+    margin-left: 15px;
+    margin-right: 50px;
+  }
+
+  .hamburger-menu {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 20;
+  }
+}

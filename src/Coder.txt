@@ -1,0 +1,101 @@
+Create a new reactjs page called Forumn.
+Create a very nice an beautiful navigation bar consiting of the links - Discussion  Resources Updates   a round profile container for profile pricyute, log out links
+Let the navigation bar have it's own file. Navigation.js and Navigation.css
+Let it look really pretty and beautiful. Let the navigation bar be seen in the Forumn page, but let navigation bar have it's own files
+
+
+width of the navigation should extend to the end but there should be a small margin on right and left sides
+It should be responsive on any screen, use a gradient of blue and white for the background colour of the navigation bar. Give me full updated codes
+
+
+
+
+Now, style and edit the codes so that the formn page will look like real beuatiful discussion forumn.Do thorough editing, let the page be responsive. Give me full updated codes.
+Let the inputs spread out, they seem in the middle, let the user's input appear om the left side of the screen, not middle. When the like emoji is tapped, let the number of likes increase.. Lt the count start from zero. When reply link is tapped, let there be a openeing of a new beautiful styled nput where user can type, then sumbit onto the screen.
+
+
+
+
+shift the messages to the left of the screen, they shouldn't be in th midlle like the heading. Also change the input to just the shape with message, because that is just displaying the message the user typed. Anytime a user types a message, it goes onto the screen, following the order like real chatting apps. Make the necessary chamges:
+
+
+
+
+When a user types a message, let the message go to the far left end of thescreen. here the messages are under the influenc of content and forumn-page. let the centeredness of the other contents of the page not affect the messages. Let the messages be outsdie the computer sciencestyling, such that the messages will be aligned on the left of the screen, not on the eft of teh red background content
+
+
+
+move the computer sciencetest to the top center
+display messages under the computer on the left like real chatting apps.
+Let the chats benath the compuetr scirnce be scrollable, but the input and the computer science is not scrollable.
+
+
+all js files except App.js goes to pages folder in src folder. all css files excet App.css goes into styles folder inside src 
+App.js and App.css are in src folder
+all images and icons are in components folder in src folder
+
+
+
+
+
+I am about to create a website. Use simple reactjs, html, css and javascript to create good looking interface. Create a App.js, App.css, navigation.js and navigation.css, home.js and home.css files for me. The navigation is to be in the home as the website opens. In the navigation, at the leftmost of the navigation, use the logo of the website there (logo.png in the components folder in src), include the name of the website right beside the logo. The name of the website is EduConnect Ghana. Then in the middle on the navigation bar, include the links - Forums Resources Find Peers Events. At the right most of the navigation bar, include a search bar with a place holder "search courses". Add a search icon in the right most of the search bar (search.png in components folder). At the right outside the search bar place a notification bell icon (bell.png in components folder). at the top right of the bell, create a red round shape and place 1 in it to show that there i a new notification. The colour of EduConnect Ghana text is blue, the colour of the links in the navigation bar is gray.
+navigation.js and home.js are in pages folder in src. navigation.css and home.css are in styles folder in src. App.js and App.css are in src folder
+
+
+Now center all the elemnts in className="topsection". let the section end few margin below the two <a> tags
+Give me full updated codes
+
+
+let all the tabs to be in a row like the second scetion. let the next icon be on the same line and middleness as the last <p> in each innertab. Let the width be equal for all tabs. Let it be responsive on every device
+
+
+make all the lastsection inertabs be on the same row, and make them responsive as well.
+Give me full updated codes
+
+
+
+I want you to create a Footer.js and footer.css file for me. Let thefoorter.js load into Home.js. Footer.js is located in pages folder inside src folder. footer.css is located in the styles folder inside the src folder.
+In the footer. It should be made of three columsn.
+First colum contains the bold text "Features", under it are "Course Forums", under it is "Resourceses Library" and under resourse libaray is "Find Study", under find study is "Acdemics Events"
+second column contains bold text "Support", under it is "Help Cen", under it is "RCommunity Guidelines" and under community guidelines is "Privacy Policy", under privacy policy is "Terms of Use"
+The third column contains bold text "Connect with us", under it are three icons on the same line facebookicon.png, twittericon.png. instagramicon.png, emailicon.png
+
+
+Under the three columns section, there is a horizontal lineunder the horizontal line is a centered texts saying"EduConncet Ghana. Empowering student collaboration across universities"
+
+Background colour of footer is black, font colors are white
+
+don't do the filter and sort drop down, do it just a tab.
+place  filter.png at the left of filter text, inide its tab. Place sort.png at the left of the Sort ext inside its tab.
+Let the usericon be in the same middleness of all the texts there on the same row. leave small margin at the right of the user icon so that it doesn't become too close to Economics text.
+let the spaces between these be the same - Economics,  .   Uploadedby Dr. Kofi Mensah,  .   2weeks ago
+let the dpwnload tab be at the right corner middle of the featured section.
+change this : <span role="img" aria-label="likes">👍</span> {resource.likes}    into like.png
+Also, change  <span role="img" aria-label="downloads">⬇️</span> {resource.downloads} into download1.png
+place #00ffff "Download" text at the right coner on the same line of the like.png and download1.png.
+
+place bookmark.png at the right conreer of the resource.title line
+place openbook.png at the immediate left of each .resource-card .category
+
+all the images are in components folder in src folder
+let everything be responsive on different devices. Give me full updated codes
+
+
+
+
+
+
+let the blue download tab be in the right center of the featured section tab.I said right center not not bottom
+
+let the all the row strting elemnts in each tab be aligned the same, let them start with the same space from the left.
+let the resource grid three on a row instead of two.
+Let "Comprehensive lecture notes, practice problems, and study guides" start from the left most of its  row like the way "Introduction to Microeconomics - Complete Course Materials" start from the leftmost on it's row 
+Let usersicon, Economics • Uploaded by Dr. Kofi Mensah • 2 weeks ago start from the leftmost of its row like "Introduction to Microeconomics - Complete Course Materials" started the leftmost of its row
+So that the three rows be be on the smae vertical starting line
+
+Let author,  category start at the leftmost of their row like the way title strted at the leftmost of its row
+so that the four rows will be on the same vertical starting line
+Give me full updated codes
+
+
+let resource.category and img src={openBookIcon} be align the same on the same line, one shuldn't be a little above the other or below, they should be aligned the same on the smae line

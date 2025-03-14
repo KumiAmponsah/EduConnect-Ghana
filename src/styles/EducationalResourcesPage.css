@@ -1,0 +1,315 @@
+.page {
+    font-family: 'Roboto', Arial, sans-serif;
+  }
+  
+  .page h1 {
+    font-size: 28px;
+    margin: 20px;
+    font-weight: 700;
+    color: #333;
+  }
+  
+  .page p {
+    font-size: 16px;
+    color: #666;
+    margin: 0 20px 20px;
+    font-weight: 400;
+  }
+  
+  .resources-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .load-more {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: 400;
+    color: #333;
+  }
+  
+  .load-more:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .tabs-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-family: 'Roboto', Arial, sans-serif;
+  }
+  
+  .tabs-container .tabs .tab {
+    color: #374151;
+  }
+  
+  .tabs button {
+    padding: 8px 16px;
+    margin-right: 10px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  
+  .tabs button.tab-active {
+    background-color: #DBEAFE;
+    color: #1D4ED8;
+    border-radius: 7px;
+    font-weight: 700;
+  }
+  
+  .filter-sort-tabs {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .filter-tab, .sort-tab {
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    border: 1px solid #D1D5DB;
+  }
+  
+  .tab-icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+  }
+  
+  .resource-count {
+    margin-left: 10px;
+    background-color: #e0e0e0;
+    padding: 5px 10px;
+    border-radius: 12px;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  
+  .featured-section {
+    padding: 20px;
+    background-color: #EFF6FF;
+    border-radius: 8px;
+    margin: 20px;
+    font-family: 'Roboto', Arial, sans-serif;
+  }
+  
+  .featured-section h3 {
+    font-size: 14px;
+    color: #666;
+    font-weight: 400;
+  }
+  
+
+  
+  .featured-card h2 {
+    font-size: 24px;
+    margin: 10px 0;
+    font-weight: 700;
+    color: #333;
+    text-align: left; /* Ensure text is aligned to the left */
+  }
+  
+  .featured-card p {
+    color: #6B7280;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left; /* Ensure text is aligned to the left */
+    margin: 0; /* Remove any default margin */
+    padding: 0; /* Remove any default padding */
+  }
+  
+  .featured-card .download-btn-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px; /* Add some space above the button */
+  }
+  
+  .featured-card .resourceuser-icon {
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+    vertical-align: middle; /* Align the icon with the text */
+  }
+  .featured-card .resourceuser-icon1 {
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+    vertical-align: middle; /* Align the icon with the text */
+    position: relative;
+    bottom: 2px;
+  }
+  
+  .featured-card .author-time {
+    font-size: 12px;
+    color: #999;
+    font-weight: 400;
+    text-align: left; /* Ensure text is aligned to the left */
+    margin: 0; /* Remove any default margin */
+    padding: 0; /* Remove any default padding */
+  }
+  
+  .category-tab {
+    background-color: #DBEAFE;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 12px;
+    color: #6B7280;
+    font-weight: 400;
+    margin: 10px 0; /* Add margin to separate from other elements */
+  }
+
+ 
+  .featured {
+    background-color: #DBEAFE;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 12px;
+    font-size: 12px;
+    color: #1E40AF;
+    font-weight: 400;
+  }
+  
+  .featured-card {
+    position: relative; /* Make the container a positioning context */
+    margin-top: 10px;
+    padding-left: 0; /* Ensure no padding on the left */
+  }
+  
+  .download-btn-container {
+    position: absolute; /* Position the button absolutely within the container */
+    right: 20px; /* Align to the right corner */
+    top: 50%; /* Center vertically */
+    transform: translateY(-50%); /* Adjust for exact vertical centering */
+  }
+  
+  .download-btn {
+    background-color: #1a73e8;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: 400;
+    display: flex;
+    align-items: center; /* Align icon and text vertically */
+    gap: 8px; /* Add space between icon and text */
+  }
+  
+  .download-btn:hover {
+    background-color: #1557b0;
+  }
+ 
+  
+  .resource-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 15px;
+    font-family: 'Roboto', Arial, sans-serif;
+  }
+  
+  .resource-card h3 {
+    font-size: 18px;
+    margin: 10px 0;
+    font-weight: 700;
+    color: #333;
+  }
+  
+  .resource-card p {
+    font-size: 14px;
+    color: #666;
+    font-weight: 400;
+    margin: 10px 0; /* Add margin to separate from other elements */
+  }
+  
+  .author-time {
+    font-size: 12px;
+    color: #999;
+    font-weight: 400;
+    margin: 10px 0; /* Add margin to separate from other elements */
+  }
+  
+  .stats {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 14px;
+    margin-top: 10px; /* Add margin to separate from other elements */
+  }
+  
+  .stats span {
+    display: flex;
+    align-items: center;
+  }
+  
+  .stat-icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+  }
+  
+  .download-text {
+    color: #2563EB;
+    margin-left: auto;
+  }
+  
+  .resource-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .bookmark-icon {
+    width: 16px;
+    height: 16px;
+  }
+  
+  .category-tab p {
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+    margin: 0; /* Remove default margin */
+  }
+  
+  .open-book-icon {
+    width: 20px;
+    margin-right: 5px;
+    vertical-align: middle; /* Align the icon with the text */
+  }
+  
+  .category-text {
+    vertical-align: middle; /* Ensure the text is aligned with the icon */
+  }
+  
+  .resourceuser-icon {
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+  }
+  
+  @media (max-width: 768px) {
+    .resources-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .resources-grid {
+      grid-template-columns: 1fr;
+    }
+  }
