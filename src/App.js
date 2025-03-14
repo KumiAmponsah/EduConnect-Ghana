@@ -6,7 +6,6 @@ import Home from './pages/Home';
 import EducationalResourcesPage from './pages/EducationalResourcesPage';
 import Signin from './pages/Signin';
 import Signup from './pages/Signup';
-import openBookIcon from './components/open-bookicon.png'; // Import the icon
 
 function App() {
   return (
@@ -19,8 +18,7 @@ function App() {
           <Route path="/signin" element={<Signin />} />
           <Route path="/signup" element={<Signup />} />
         </Routes>
-        {/* Example usage of the icon in a component */}
-        <img src={openBookIcon} alt="Open Book Icon" />
+      
       </div>
     </Router>
   );
